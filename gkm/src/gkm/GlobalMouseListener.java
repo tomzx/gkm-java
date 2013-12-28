@@ -7,7 +7,7 @@ public class GlobalMouseListener implements NativeMouseInputListener
 {
 	public void nativeMouseClicked(NativeMouseEvent e)
 	{
-		System.out.println("mouse.click:" + e.getClickCount());
+		System.out.println("mouse.clicked:" + e.getClickCount());
 	}
 
 	public void nativeMousePressed(NativeMouseEvent e)
