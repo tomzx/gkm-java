@@ -25,6 +25,7 @@ public class GlobalListener
 		GlobalMouseListener globalMouseListener = new GlobalMouseListener();
 		GlobalScreen.addNativeMouseListener(globalMouseListener);
 		GlobalScreen.addNativeMouseMotionListener(globalMouseListener);
+		GlobalScreen.addNativeMouseWheelListener(globalMouseListener);
 		GlobalScreen.addNativeKeyListener(new GlobalKeyListener());
 	}
 	
